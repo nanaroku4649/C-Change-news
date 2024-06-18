@@ -2,7 +2,7 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import urllib.parse
 
-# グローバル変数として更新ログを保持
+
 update_log = "Update log\n\nTPM bypass improved\nPerm spoof system improved"
 
 class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
